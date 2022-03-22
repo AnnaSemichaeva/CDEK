@@ -16,6 +16,7 @@
 		635789A327E62AA10069AA0D /* CDEKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635789A227E62AA10069AA0D /* CDEKTests.swift */; };
 		635789AD27E62AA10069AA0D /* CDEKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635789AC27E62AA10069AA0D /* CDEKUITests.swift */; };
 		635789AF27E62AA10069AA0D /* CDEKUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635789AE27E62AA10069AA0D /* CDEKUITestsLaunchTests.swift */; };
+		635789F827EA615B0069AA0D /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635789F727EA615B0069AA0D /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		635789A827E62AA10069AA0D /* CDEKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CDEKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		635789AC27E62AA10069AA0D /* CDEKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDEKUITests.swift; sourceTree = "<group>"; };
 		635789AE27E62AA10069AA0D /* CDEKUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDEKUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		635789F727EA615B0069AA0D /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +103,7 @@
 			children = (
 				6357898B27E62A9A0069AA0D /* AppDelegate.swift */,
 				6357898D27E62A9A0069AA0D /* SceneDelegate.swift */,
-				6357898F27E62A9A0069AA0D /* ViewController.swift */,
+				635789F927EA61AE0069AA0D /* Controllers */,
 				6357899127E62A9A0069AA0D /* Main.storyboard */,
 				6357899427E62AA10069AA0D /* Assets.xcassets */,
 				6357899627E62AA10069AA0D /* LaunchScreen.storyboard */,
@@ -125,6 +127,15 @@
 				635789AE27E62AA10069AA0D /* CDEKUITestsLaunchTests.swift */,
 			);
 			path = CDEKUITests;
+			sourceTree = "<group>";
+		};
+		635789F927EA61AE0069AA0D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6357898F27E62A9A0069AA0D /* ViewController.swift */,
+				635789F727EA615B0069AA0D /* ResultViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 				6357899027E62A9A0069AA0D /* ViewController.swift in Sources */,
 				6357898C27E62A9A0069AA0D /* AppDelegate.swift in Sources */,
 				6357898E27E62A9A0069AA0D /* SceneDelegate.swift in Sources */,
+				635789F827EA615B0069AA0D /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

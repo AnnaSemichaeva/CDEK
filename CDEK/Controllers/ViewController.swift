@@ -30,8 +30,9 @@ class ViewController: UIViewController {
         let height = hightSlider.value
         let weight = weightSlider.value
         
-        print(height)
-        print(weight)
+        let cdek = height * weight
+        
+        print(cdek)
         
     }
     
