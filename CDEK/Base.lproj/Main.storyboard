@@ -35,6 +35,9 @@
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="6"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="result:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2w5-Te-5YV"/>
+                                </connections>
                             </button>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="50" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="OFL-Qv-3DW">
                                 <rect key="frame" x="20" y="625" width="376" height="30"/>
@@ -98,6 +101,10 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="un5-8R-ov9" secondAttribute="trailing" constant="9" id="sAz-He-VzN"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="hightSlider" destination="OFL-Qv-3DW" id="bN2-eJ-vyH"/>
+                        <outlet property="weightSlider" destination="gLK-kO-mBh" id="Miz-FF-COl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
