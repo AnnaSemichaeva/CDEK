@@ -55,16 +55,16 @@
                                     <action selector="weightValue:" destination="BYZ-38-t0r" eventType="valueChanged" id="6QH-Sa-gmB"/>
                                 </connections>
                             </slider>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="262" translatesAutoresizingMaskIntoConstraints="NO" id="NhZ-xn-ZM3">
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="250" translatesAutoresizingMaskIntoConstraints="NO" id="NhZ-xn-ZM3">
                                 <rect key="frame" x="22" y="586" width="374.5" height="20.5"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Высота" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0s4-rY-Q8s">
-                                        <rect key="frame" x="0.0" y="0.0" width="58.5" height="20.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Высота" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0s4-rY-Q8s">
+                                        <rect key="frame" x="0.0" y="0.0" width="70.5" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100 см" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QCr-5n-Flh">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="100 см" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QCr-5n-Flh">
                                         <rect key="frame" x="320.5" y="0.0" width="54" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
@@ -72,17 +72,17 @@
                                     </label>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="262" translatesAutoresizingMaskIntoConstraints="NO" id="un5-8R-ov9">
-                                <rect key="frame" x="24" y="680" width="381" height="20.5"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="250" translatesAutoresizingMaskIntoConstraints="NO" id="un5-8R-ov9">
+                                <rect key="frame" x="24" y="680" width="372.5" height="20.5"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ширина" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Bw-QJ-XLI" userLabel="Ширина">
-                                        <rect key="frame" x="0.0" y="0.0" width="65" height="20.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Ширина" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Bw-QJ-XLI" userLabel="Ширина">
+                                        <rect key="frame" x="0.0" y="0.0" width="68.5" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100 см" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1lR-CC-gfq">
-                                        <rect key="frame" x="327" y="0.0" width="54" height="20.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="100 см" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1lR-CC-gfq">
+                                        <rect key="frame" x="318.5" y="0.0" width="54" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -97,6 +97,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ytE-cX-DtM" secondAttribute="bottom" constant="46" id="7d4-Y9-dVa"/>
                             <constraint firstItem="IvP-xv-aEq" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="B4c-ns-xh7"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NhZ-xn-ZM3" secondAttribute="trailing" constant="17.5" id="DmD-Vw-TxT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="un5-8R-ov9" secondAttribute="trailing" constant="17.5" id="HfL-6Z-lsz"/>
                             <constraint firstItem="un5-8R-ov9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="NPi-8g-pXo"/>
                             <constraint firstItem="un5-8R-ov9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="636" id="Ocg-U8-9V2"/>
                             <constraint firstItem="NhZ-xn-ZM3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="22" id="fcc-YU-BC2"/>
@@ -104,7 +105,6 @@
                             <constraint firstItem="IvP-xv-aEq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="mSu-7s-ZH0"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="IvP-xv-aEq" secondAttribute="bottom" constant="46" id="puh-zB-PvU"/>
                             <constraint firstItem="NhZ-xn-ZM3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="542" id="qHS-wQ-QAz"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="un5-8R-ov9" secondAttribute="trailing" constant="9" id="sAz-He-VzN"/>
                         </constraints>
                     </view>
                     <connections>
