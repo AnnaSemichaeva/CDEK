@@ -32,9 +32,14 @@ class ViewController: UIViewController {
         
         let cdek = height * weight
         
-        print(cdek)
+        self.performSegue(withIdentifier: "goToResult", sender: self)
         
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue
+    }
+    
     
 }
 
